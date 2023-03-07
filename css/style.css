@@ -1,0 +1,11 @@
+h1{
+    color:rgb(42, 165, 91);
+    text-align: center;
+
+}
+html{
+    background-color: #7a8f9c;
+    background-image: linear-gradient(rgba(1,85,96,0.6),rgba(12,24,6,0.32)), url(../imagen1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
