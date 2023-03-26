@@ -1,15 +1,33 @@
 h1{
-    color:rgb(42, 165, 91);
-    text-align: center;
-
-}
-html{
-    background-color: #ffffff;
-    background-image: linear-gradient(rgba(1,85,96,0.6),rgba(12,24,6,0.32)), url(../imagen1.png);
-    background-repeat: no-repeat;
-    background-size: cover;
-}
-.titulo{
-    color: azure;
-
-}
+    color: rgb(87, 68, 15); 
+    text-align: center; 
+    border:4px rgba(53, 32, 173, 0.801) solid;
+    background-color: rgba(38, 134, 244, 0.801);
+   
+   }
+   
+   h2{
+       text-align: center; 
+       color: rgb(67, 18, 213); 
+       background-color: rgba(54, 10, 231, 0.801);
+   
+   }
+   .subtitulo1 {
+       font-size: 50px;
+       text-align: center;
+   }
+   
+   .subtitulo1.hover {
+   font-size: 50px;
+   text-align: center;
+   
+   }
+   html{
+       background-image: linear-gradient(rgba(11, 98, 185, 0.932),rgba(143, 248, 5, 0.5)), url(../imagenes/perfilhv.jpg);
+       background-size: cover; 
+       background-repeat: no-repeat;
+       background-color: rgba(red, green, blue, alpha);
+       
+   }
+   
+   

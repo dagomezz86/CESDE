@@ -6,56 +6,141 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
+     
+    <link rel="shortcut icon" href="imagenes/perfilhv.jpg" type="image/x-icon">
 </head>
+
 <body>
-    <h1 class="titulo">HOJA DE VIDA</h1>
-    
-    
-   <p style="text-align: center;"> <img src="imagen1.png"     alt="foto de perfil" width="250" height="250" al="middle"  /></p>
-    
-    <button onclick="saludar()">SALUDAR</button>
+        <!--AQUÍ INICIA EL NAVEGADOR-->
+    <nav class="navbar navbar-expand-lg bg-info">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#"><img src="imagenes/perfilhv.jpg" alt="Logo personal" width="50px"></a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">INICIO</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">SOBRE MI</a>
+              </li>
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  CERTIFICADOS
+                </a>
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#">DIPLOMADO EN PYTHON</a></li>
+                  <li><a class="dropdown-item" href="#">DIPLOMADO EN JAVA</a></li>
+                  <li><a class="dropdown-item" href="#">DIPLOMADO EN JS</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#">diplomas</a></li>
+                </ul>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link">contacto</a>
+              </li>
+            </ul>
+            <form class="d-flex" role="search">
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+              <button class="btn btn-outline-success" type="submit">buscar</button>
+            </form>
+          </div>
+        </div>
+      </nav>
+      <!--AQUÍ FINALIZA EL NAVEGADOR-->
 
-    <h2 style="color: blueviolet;text-align: center;">DIEGO ALEJANDRO GOMEZ MUNERA</h2>
+<!--AQUÍ INICIA EL CARRUSEL-->
+<div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://blogs.comillas.edu/uadi/wp-content/uploads/sites/7/2018/11/mani.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://upc.edu.ar/wp-content/uploads/2015/09/NOTA_PEI_Indios-negros-inmigrantes-y-mujeres.png" class="d-block w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="https://elperiodicodelaenergia.com/wp-content/uploads/2021/01/1301-in-article-1-1.jpg" class="d-block w-100" alt="...">>
+      </div>
+    </div>
+  </div>
+   
+      <!--AQUÍ FINALIZA EL CARRUSEL-->
+      <h1 >DIEGO ALEJANDRO GOMEZ MUNERA</h1>
 
-    <h3 style="text-align: center;">dagomezz86@gmail.com</h3>
-    <a href="tel:3103657133">310 36 57 133</a>
-    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.383177123967!2d-75.53614038536931!3d6.344397895408832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f50873b1773%3A0x1281940243f46b07!2sRoterdam%20Apartamentos!5e0!3m2!1ses!2sco!4v1677548527952!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    
+      <div style="text-align: center;">
+        <img src="imagenes/perfilhv.jpg" alt="" srcset="" height="250"  style="border-radius: 50%;" width="250">
 
-    <h2 style="text-align:center;">PERFIL PROFESIONAL</h2>
-    <p>Programador con más de cinco años de experiencia generando código para empresas del sector bancario. Creé el nuevo portal web de Santander, el cual recibe más de 1 millón de visitas al día. Los errores reportados en los micrositios del banco se redujeron en un 20% y la retención de usuarios incrementó en un 10%. Especialista en solución de problemas y trabajo en equipo.
+    </div>
 
-    </p>
-    <h2>Experiencia Laboral</h2>
-    <p>Programador Web<br>
+      <H2 class="subtitulo1">COLOMBIANO</H2>
+      <button onclick="saludar()">saludar</button>
+      <p style="color: rgb(20, 20, 20); text-align: center;">dagomezz86@gmail.com</p>
+      <h3 style="color: rgb(20, 20, 20); float:none;text-align: center;">telefono:</h3> 
+      <p style="color: rgb(20, 20, 20); text-align: center;">3103657133</p><br>
 
-        Banco Santander<br>
-        
-        Agosto 2017– Diciembre 2019<br>
-        
-        <p>Escribí el código una página web con la capacidad de recibir a más de un millón de usuarios diariamente.<br>
-        Responsable de crear un comparador de tarjetas de crédito que elevó las ventas de producto en un 15%.<br>
-        Desarrollé una aplicación bancaria especializada en seguros de auto la cual recibió una calificación de 4.8 estrellas.<br></p>
-         
-        
-        Desarrollador Web<br>
-        
-        Flame Analytics<br>
-        
-        Enero 2016 - Agosto 2017<br>
-        
-        <p>A lo largo de mi estancia, participé en más de 15 proyectos digitales y colaboré con un equipo de diseñadores, copywriters creativos, project managers y Q&A testers.
-        Reduje el porcentaje de errores mensuales de la página de inicio del portal de la compañía en un 10%.
-        Como parte del comité de mejoras continuas de la empresa, colaboré para optimizar los tiempos de carga de la página web en un 15%.</p>
-         
-        
-        </p>
+      <h2 style="text-align: center;">INFORMACION PERSONAL</h2>
+      <!--AQUÍ INICIA LA INFORMACIÓN DE PRODUCTOS-->
+      <div class="container">
+        <div class="row">
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                <div class="col">
+                  <div class="card h-100">
+                    <img src="https://web.magister.com/wp-content/uploads/2020/08/ilustracion-educacion-linea-libro-portatil-concepto-educacion-icono-blanco-aislado_138676-635-300x300.jpg" class="card-img-top" alt="educacion">
+                    <div class="card-body">
+                        <h5 style="color: rgb(46, 46, 46); text-align: center; border:3px rgb(46, 46, 46) solid">Educacion</h3>
+                      <p style="text-align: justify;" class="card-text">Bachiller academico de la institucion educativa Marco Fidel Suarez, con diplomado en python y java, actualmente estudiante de desarrollo de software en CESDE</p>
+                    </div>
+                    <div class="card-footer">
+                      <small class="text-body-secondary">Last updated 3 mins ago</small>
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://universidadalnus.com/wp-content/uploads/2020/08/Universidad-Alnus-Los-salarios-varIan-segUn-la-industria-y-el-nivel-de-experiencia-subtitulo-300x300.png" class="card-img-top" alt="experiencia">
+                        <div class="card-body">
+                            <h5 style="color: rgb(46, 46, 46); text-align: center; border:3px rgb(46, 46, 46) solid">Experiencia</h3>
+                            
+                          <p class="card-text">los ultimos años me he desempeñado como jefe de despacho con funciones tales como despacho de pedidos, manejo de personal, picking y packing, velar porque los pedidos de los clientes lleguen a tiempo y en optimas condiciones.</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-body-secondary">Last updated 3 mins ago</small>
 
-    
-    
-    
+                    </div>
+                  </div>
+                </div>
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="https://sanigestion.es/wp-content/uploads/2020/07/esquemas-certificacion-300x300.png" class="card-img-top" alt="certificados">
+                        <div class="card-body">
+                          <h5 style="text-align: center;" ;class="card-title">Certificacion</h5>
+                          <p class="card-text">bachiller academico,diplomado en python, diplomado en java</p>
+                        </div>
+                        <div class="card-footer">
+                          <small class="text-body-secondary">Last updated 3 mins ago</small>
+                  
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+   
+
+   
+
+ 
+ <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3965.383177123967!2d-75.53614038536931!3d6.344397895408832!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e442f50873b1773%3A0x1281940243f46b07!2sRoterdam%20Apartamentos!5e0!3m2!1ses!2sco!4v1677548527952!5m2!1ses!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe> <br>
+
+        
+
 </body>
-<script>function saludar(){
-    alert("HOla mundo")
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.bundle.min.js" integrity="sha384-qKXV1j0HvMUeCBQ+QVp7JcfGl760yU08IQ+GpUo5hlbpg51QRiuqHAJz8+BrxE/N" crossorigin="anonymous"></script>
+
+<script >function saludar(){
+    alert ("SALUDOS VISITANTES!!")
 }</script>
 </html>
